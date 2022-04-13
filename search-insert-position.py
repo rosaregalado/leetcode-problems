@@ -14,7 +14,6 @@
 
 
 
-
 # recursive method
 # uses binary search 
 class Solution(object):
@@ -29,7 +28,7 @@ class Solution(object):
       return 0
     N = len(nums)
     mid = N / 2
-    # check if target is the middle value
+    # check if target is the midpoint value
     if nums[mid] == target:
       return mid
     # check left side of array
