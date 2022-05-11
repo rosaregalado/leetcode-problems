@@ -5,7 +5,6 @@ class ListNode(object):
     self.next = next
 
 
-
 # input: linkedlist
 # output: boolean (true or false)
 

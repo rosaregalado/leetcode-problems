@@ -29,5 +29,7 @@ class Solution(object):
           # add nums to output array
           output.append(i)
           output.append(j)
-      # return array
-      return output
+    # return array
+    return output
+
+print(Solution().twoSum([2, 7, 11, 15], 9))
